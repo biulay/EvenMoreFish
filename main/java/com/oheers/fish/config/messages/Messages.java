@@ -190,13 +190,13 @@ public class Messages {
     public String getRemainingWord() {
         String returning = config.getString("bossbar.remaining");
         if (returning != null) return returning;
-        else return " left";
+        else return "";
     }
 
     public String getRarityPrefix() {
         String returning = config.getString("fish-rarity-prefix");
         if (returning != null) return returning;
-        else return "";
+        else return "1";
     }
 
     public void disabledInConsole() {
